@@ -1,0 +1,86 @@
+.us{
+    margin-top: 96px;
+    margin-bottom: 40px;
+    .us__wrapper{
+        display: flex;
+        gap: 69px;
+        .us__text{
+            .us__title{
+                font-weight: 500;
+                margin-bottom: 24px;
+                color: #000;
+            }
+            .us__subtitle{
+                font-size: 48px;
+                font-weight: 600;
+                margin-bottom: 24px;
+                color: #232536;
+                max-width: 672px;
+            }
+            .us__desc{
+                font-size: 16px;
+                margin-bottom: 64px;
+                color: #232536;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                label{
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #232536;
+                    margin-bottom: 8px;
+                }
+                input{
+                    border: none;
+                    border-bottom: 1px solid #232536;
+                    outline: none;
+                    width: 100%;
+                    padding: 5 10px;
+                    margin-bottom: 24px;
+                    &::placeholder{
+                        font-size: 17px;
+                        text-transform: capitalize;
+                    }
+                }
+                .mes{
+                    padding-bottom: 40px;
+                }
+            }
+            button{
+                padding: 20px 32px;
+                border: none;
+                background-color: #444CFC;
+                color: #fff;
+                font-size: 16px;
+                
+            }
+        }
+        .us__texts{
+            padding: 83px 96px;
+            background-color: #666DFF;
+            .us__titles{
+                font-size: 15px;
+                font-weight: 500;
+                color: #fff;
+                padding: 12px 0;
+                border-bottom: 1px solid #00000014;
+            }
+            .us__inf{
+                padding: 12px 0;
+                margin-bottom: 24px;
+                font-size: 18px;
+                font-weight: 500;
+                color: #fff;
+            }
+            .us__icons{
+                display: flex;
+                gap: 27px;
+                svg{
+                    font-size: 18px;
+                    color: #fff ;
+                }
+            }
+        }
+    }
+}

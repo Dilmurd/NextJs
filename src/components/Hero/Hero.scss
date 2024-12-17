@@ -1,0 +1,35 @@
+.hero{
+    background-color: #232536;
+    padding: 96px;
+    .hero__wrapper{
+        display: flex;
+        justify-content: space-between;
+        gap: 93px;
+        align-items: center;
+        .hero__text{
+            .hero__title{
+                max-width: 600px;
+                font-size: 56px;
+                font-weight: 600;
+                color: #fff;
+                margin-bottom: 24px;
+            }
+            .hero__subtitle{
+                max-width: 450px;
+                font-size: 16px;
+                margin-bottom: 32px;
+                color: #fff;
+            }
+            button{
+                display: flex;
+                align-items: center;
+                padding: 20px 32px;
+                background-color: #444CFC;
+                color: #fff;
+                border: none;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+}

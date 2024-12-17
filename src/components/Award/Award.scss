@@ -1,0 +1,39 @@
+.award{
+    margin-top: 96px;
+    margin-bottom: 40px;
+    .award__wrapper{
+        .award__text{
+            .award__shapes{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .img{
+                    margin-bottom: 24px;
+                }
+            }
+            .award__title{
+                font-size: 14px;
+                font-weight: 500;
+                color: #000;
+                margin-bottom: 20px;
+            }
+            .award__subtitle{
+                font-size: 48px;
+                font-weight: 700;
+                color: #232536;
+                margin-bottom: 24px;
+                max-width: 654px;
+            }
+            .award__desc{
+                max-width: 650px;
+                margin-bottom:64px;
+                font-size: 16px;
+                color: #232536;
+            }
+        }
+        .award__imgs{
+            display: flex;
+            gap: 12px;
+        }
+    }
+}

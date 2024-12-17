@@ -1,0 +1,52 @@
+.job{
+    margin-top: 96px;
+    margin-bottom: 40px;
+    .job__wrapper{
+        display: flex;
+        gap: 56px;
+        justify-content: center;
+        .job__text{
+            .job__title{
+                font-weight: 500;
+                color: #232536;
+                margin-bottom: 24px;
+            }
+            .job__subtitle{
+                font-size: 48px;
+                font-weight: 600;
+                margin-bottom: 16px;
+                color: #232536;
+                max-width: 490px;
+            }
+            .job__desc{
+                font-size: 16px;
+                color: #232536;
+                max-width: 400px;
+            }
+            button{
+                padding: 20px 32px;
+                background-color: #444CFC;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 500;
+                border: none;
+                margin-top: 40px;
+            }
+        }
+        .job__texts{
+            padding: 78px 80px;
+            background-color: #FFE0C7;
+            .job__inf{
+                font-size: 24px;
+                font-weight: 600;
+                color: #232536;
+                margin-bottom: 24px;
+            }
+            .job__info{
+                margin-bottom: 16px;                
+                font-size: 16px;
+                color: #000;
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.hired{
+    margin-top: 96px;
+    .hired__wrapper{
+        .hired__text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 64px;
+            .hired__title{
+                font-weight: 500;
+                margin-bottom: 24px;
+                color: #232536;
+                text-align: center;
+            }
+            .hired__subtitle{
+                font-size: 48px;
+                font-weight: 600;
+                max-width: 624px;
+                text-align: center;
+                margin-bottom: 24px;
+                color: #232536;
+            }
+            .hired__desc{
+                max-width: 550px;
+                text-align: center;
+                color: #232536;
+            }
+
+        }
+        .hired__images{
+            text-align: center;
+            margin-bottom: 40px;
+            p{
+                margin-top: 80px;
+                font-size: 18px;
+                font-weight: 500;
+                color: #232536;
+            }
+        }
+    }
+}

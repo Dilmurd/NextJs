@@ -1,0 +1,35 @@
+footer{
+    background-color: #FFE6D2;
+    padding: 28px 0;
+    .footer__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .footer__logo{
+            display: flex;
+            gap: 42px;
+            align-items: center;
+            span{
+                font-size: 16px;
+                font-weight: 500;
+                color: #000;
+                transition: .5s;
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+        .footer__icons{
+            display: flex;
+            gap: 27px;
+            svg{
+                font-size: 16px;
+                color: #232536;
+                transition: .5s;
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+    }
+}
